@@ -46,7 +46,7 @@ _html2canvas.Util.Support = function (options, doc) {
         rangeBounds = r.getBoundingClientRect();
         rangeHeight = rangeBounds.height;
 
-        if (rangeHeight === 123) {
+        if (rangeHeight === 345) {
           support = true;
         }
         doc.body.removeChild(testElement);
